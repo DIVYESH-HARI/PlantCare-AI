@@ -1,7 +1,7 @@
 
                     PLANTCARE AI - DISEASE DETECTION SYSTEM
                         Installation & Configuration Guide
-================================================================================
+
 
 INTRODUCTION
 ------------

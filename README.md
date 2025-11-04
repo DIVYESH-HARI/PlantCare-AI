@@ -13,9 +13,8 @@ PlantCare AI represents an advanced solution for plant disease identification ut
 Capable of identifying 15+ diseases affecting tomatoes, potatoes, and peppers, complete with 
 professional treatment guidance.
 
-================================================================================
 SYSTEM SPECIFICATIONS
-================================================================================
+
 
 BASELINE REQUIREMENTS:
 - Python 3.12 or newer
@@ -29,9 +28,8 @@ OPTIMAL CONFIGURATION:
 - NVIDIA GPU with 6GB+ VRAM
 - 10 GB available disk space (SSD preferred)
 
-================================================================================
+
 SETUP INSTRUCTIONS
-================================================================================
 
 STEP 1: EXTRACT THE ARCHIVE
 ----------------------------
@@ -78,9 +76,9 @@ From the main directory, start the application:
 The interface will launch automatically in your default browser at:
     http://localhost:8501
 
-================================================================================
+
 TROUBLESHOOTING GUIDE
-================================================================================
+
 
 ISSUE 1: ImportError with rgb_to_grayscale
 -------------------------------------------
@@ -166,9 +164,8 @@ RESOLUTION:
 Specify an alternative port:
     streamlit run real.py --server.port 8080
 
-================================================================================
 USER GUIDE
-================================================================================
+
 
 BASIC WORKFLOW:
 1. Launch: streamlit run real.py
@@ -183,9 +180,9 @@ OPTIMIZATION TIPS:
 - Avoid blurred or low-resolution photographs
 - Activate enhancement only for suboptimal quality images
 
-================================================================================
+
 IDENTIFIED DISEASES
-================================================================================
+
 
 TOMATO (9 conditions):
 - Bacterial Spot
@@ -205,9 +202,9 @@ POTATO (2 conditions):
 PEPPER (1 condition):
 - Bacterial Spot
 
-================================================================================
+
 ALTERNATIVE CONFIGURATION WITH ANACONDA
-================================================================================
+
 
 CREATE ENVIRONMENT:
     conda create -n plantcare python=3.12
@@ -224,9 +221,8 @@ CONFIGURE REAL-ESRGAN:
 LAUNCH APPLICATION:
     streamlit run real.py
 
-================================================================================
+
 ALTERNATIVE CONFIGURATION WITH VIRTUAL ENVIRONMENT
-================================================================================
 
 CREATE VIRTUAL ENVIRONMENT:
     python -m venv venv
@@ -248,9 +244,9 @@ CONFIGURE REAL-ESRGAN:
 LAUNCH APPLICATION:
     streamlit run real.py
 
-================================================================================
+
 ADVANCED SETTINGS
-================================================================================
+
 
 MODIFY PORT:
     streamlit run real.py --server.port 8080
@@ -266,9 +262,7 @@ ENFORCE GPU MODE:
     Edit real.py and modify:
     device = torch.device('cuda')
 
-================================================================================
 COMMON ERROR RESOLUTIONS
-================================================================================
 
 ERROR                          | RESOLUTION
 -------------------------------|------------------------------------------
@@ -280,9 +274,8 @@ Memory exhausted               | Deactivate enhancement or resize images
 Streamlit not found            | Execute: pip install --upgrade streamlit
 Import error (rgb_to_grayscale)| Modify degradations.py as documented above
 
-================================================================================
 SUPPORT & CONTACT INFORMATION
-================================================================================
+
 
 For issues, inquiries, or assistance, please reach out to the authors:
 
@@ -298,9 +291,8 @@ Vijaya Karthick
 Vishnu Vardhan
 - Email: skvishnu2006@gmail.com
 
-================================================================================
 VERSION DETAILS
-================================================================================
+
 
 Version: 1.0.0
 Release Date: January 1, 2025
@@ -312,24 +304,16 @@ CAPABILITIES:
 - Professional treatment recommendations
 - Contemporary web interface with Streamlit
 
-================================================================================
-LICENSE INFORMATION
-================================================================================
 
-This project operates under the MIT License.
-Refer to LICENSE file for comprehensive details.
-
-================================================================================
 ACKNOWLEDGMENTS
-================================================================================
+
 
 - Ultralytics: YOLO object detection framework
 - Xintao Wang et al.: Real-ESRGAN image enhancement
 - Streamlit: Web application framework
 - All contributors to this project
 
-================================================================================
 
 Developed with dedication for healthier agricultural outcomes.
 
-================================================================================
+
